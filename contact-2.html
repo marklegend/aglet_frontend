@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
 	<head>
 
 		<!-- Title -->
-		<title>Case info</title>
+		<title>Contact </title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
 		<meta name="description" content="">
-		<meta name="author">
+		<meta name="author" content="">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	
 		<!-- Google fonts (https://www.google.com/fonts) -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
-		
+		<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome-all.min.css">
 		<!--main css bundle-->
 		<link rel="stylesheet" href="assets/css/bundle.css">
-
 
 	</head>
 
@@ -61,7 +58,7 @@
 
 			<!-- Begin noise background -->
 			<div class="bg-noise"></div>
-			<!-- End noise background -->
+			<!-- End noise background --> 
 
 
 			<!-- *****************************************
@@ -81,9 +78,8 @@
 							<!-- Begin logo 
 							================ -->
 							<div class="logo"> 
-								<a href="index.html">
+								<a href="index-fullscreen.html">
 									<img src="assets/img/aglet_logo.svg" class="logo-light magnetic-item" alt="Logo"> <!-- logo light -->
-								
 								</a>
 							</div>
 							<!-- End logo -->
@@ -92,7 +88,7 @@
 
 						<div class="header-col">
 
-							<!-- Begin overlay menu toggle button -->
+							<!-- Begin mobile menu toggle button (for "main-menu") -->
 							<div id="m-menu-toggle-btn-wrap">
 								<div class="m-menu-toggle-btn-text">
 									<span class="m-menu-text-menu">Menu</span>
@@ -102,10 +98,11 @@
 									<a href="#" class="m-menu-toggle-btn magnetic-item"><span></span></a>
 								</div>
 							</div>
-							<!-- End overlay menu toggle button -->
+							<!-- End mobile menu toggle button -->
 
 							<!-- Begin overlay menu 
-							========================  -->
+							======================== 
+							-->
 							<nav class="main-menu submenu-dark m-menu-center">
 								<div class="main-menu-holder">
 									<div class="main-menu-inner">
@@ -114,23 +111,18 @@
 											<!-- Begin main menu list -->
 											<ul class="main-menu-list anim-fadeinup">
 
-												<li class="main-menu-link-active"><a href="index.html">Home</a></li>
-											
-												<li><a href="contact.html">Contact</a></li>
+												<li><a href="index-fullscreen.html">Home</a></li>
+												<li class="main-menu-link-active"><a href="contact-2.html">Contact</a></li>
 
 											</ul>
 											<!-- End main menu list -->
 
 										</div> <!-- /.main-menu-content -->
 									</div> <!-- /.main-menu-inner -->
-								</div> <!
-						
-
-								<!-- Begin noise background -->
-								<div class="bg-noise"></div>
-								<!-- End noise background -->
+								</div> <!-- /.main-menu-holder -->
 
 							</nav> 
+							<!-- End main menu -->
 							<!-- End overlay menu -->
 
 						</div> <!-- /.header-col -->
@@ -144,83 +136,35 @@
 				************************************** -->
 				<div id="content-wrap">
 
-					
-					<!-- ========================
-					///// Begin page header /////
-					=============================
-					* ATENTION: This page header is slightly different from the default page header! 
-					It contains some extra elements and classes specifically for a portfolio single project.
-					============================= 
-					* Use class "ph-full" to enable fullscreen size.
-					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).).
-					* Use class "ph-center" to enable content center position.
-					* Use class "ph-bg-image" to enable page header background image (required for a portfolio single project!).
-					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light image (effect only with class "ph-bg-image").
-					* Use class "ph-image-shadow" to enable page header background image (effect only with class "ph-bg-image").
-					* Use class "ph-image-cropped" to crop image. It fixes image dimensions (no effect for "ph-bg-image"!).
-					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
-					* Use class "ph-content-parallax" to enable content parallax.
-					* Use class "ph-stroke" to enable caption title stroke style.
-					* Use class "ph-inline" to enable content inline position (for a single project page only! No effect with class "ph-center"!).
-					-->
-					<div id="page-header" class="ph-full ph-bg-image ph-center ph-image-shadow ph-image-cover-5 ph-content-parallax">
+				
+					<div id="page-header" class="ph-full ph-cap-xxlg ph-center ph-bg-image ph-stroke ph-image-shadow ph-image-cropped ph-image-cover-5 ph-content-parallax">
 						<div class="page-header-inner wrap">
 
 							<!-- Begin page header image 
 							============================= -->
 							<div class="ph-image">
 								<div class="ph-image-inner">
-									<!-- <img src="assets/img/page-header/project-ph/project-ph-2.jpg" alt="Image"> -->
+									<!-- <img src="assets/img/Thumbnails/office-team.jpg" alt="Image"> -->
 
 									<div class="ph-video-wrap">
-										<video class="ph-video" loop muted autoplay preload="metadata" poster="assets/img/Thumbnails/download-5.jpg">
-											<source src="assets/vids/eq_stage_video.mp4" type="video/mp4">
+										<video class="ph-video" loop muted autoplay preload="metadata" poster="assets/img/Thumbnails/office-team.jpg">
+											<source src="assets/vids/office-team.mp4" type="video/mp4">
 										</video>
 									</div>
 								</div>
 							</div>
 							<!-- End page header image -->
 
+							<!-- Begin page header caption
+							=============================== 
+							-->
 							<div class="ph-caption">
-								<div class="ph-categories ph-appear">
-									<div class="ph-category">Branding</div>
-									<!-- <div class="ph-category">Varia</div> -->
-								</div> <!-- /.ph-categories -->
-
-								<h2 class="ph-caption-title ph-appear">Mercedes EQ</h2> <!-- You can use <br class="hide-from-lg"> to break a text line if needed -->
-								<!-- <h4 class="ph-caption-subtitle ph-appear">Subtitle</h4> -->
+								<h1 class="ph-caption-title ph-appear">Contact</h1>
+								<!-- <div class="ph-caption-subtitle ph-appear">Subtitle</div> -->
 							</div> 
 							<!-- End page header caption -->
 
-							<!-- Begin project info list
-							============================= 
-							-->
-							<div class="project-info-list">
-								<ul>
-									<li>
-										<div class="pi-list-heading">Client</div>
-										<div class="pi-list-cont">Mercedes</div>
-									</li>
-									<li>
-										<div class="pi-list-heading">Year</div>
-										<div class="pi-list-cont">2021</div>
-									</li>
-									<li>
-										<div class="pi-list-heading">Role</div>
-										<div class="pi-list-cont">UI/UX design &amp; Visual Branding</div> <!-- Describe in a few words -->
-									</li>
-									<li>
-										<div class="pi-list-heading">Website</div>
-										<div class="pi-list-cont"><a href="#t" target="_blank" rel="noopener">Visit site<span class="pi-list-icon"><i class="fas fa-arrow-right"></i></span></a></div>
-									</li>
-								</ul>
-							</div>
-							<!-- End project info list -->
-
 						</div> <!-- /.page-header-inner -->
-
-					
-						
 					</div>
 					<!-- End page header -->
 
@@ -230,58 +174,71 @@
 					************************************** -->
 					<div id="page-content">
 
-
 						<!-- =======================
 						///// Begin section /////
-						=========================-->
-						<div class="section padding-top-xlg-180 padding-left-sm-3-p padding-right-sm-3-p">
+						============================ 
+						-->
+
+						<div class="section">
 							<div class="section-inner wrap">
-
 								<div class="row">
-									<div class="col-lg-12">
 
-										<div class="heading heading-lg anim-fadeinup">
-											<h2 class="heading-title">About</h2>
-											<!-- <h3 class="heading-subtitle text-gray">Subtitle</h3> -->
+												<div class="col-lg-7">
+
+												<img src="assets/img/contact/contact-image.jpg" class="image anim-fadeinup" alt="Image">
+			
+									</div> <!-- /.col -->
+
+
+									<div class="col-lg-5 padding-top-lg-10-p">
+
+										<!-- Begin Heading 
+										====================== 
+										-->
+										<div class="heading heading-xxxlg margin-bottom-10-p anim-fadeinup">
+												<h1 class="heading-title pci-caption-back offset-left-3">Hello </h1>
 										</div>
 										<!-- End Heading -->
 
-										<div class="anim-fadeinup text-gray">
-											<p>Pleased him another was settled for. Moreover end horrible endeavor entrance any families. Income appear extent on of thrown in admire. Stanhill on we if vicinity material in. Saw him smallest you provided ecstatic supplied. Garret wanted expect remain as mr. Covered parlors concern we express in visited to do.</p>
-
+										<div class="text-gray padding-bottom-40 anim-fadeinup">
+											<p>my name is <strong>Phenyo M. E. Mokgadi</strong>.
+												<br> and I am currently watching
+												<br> a series called <strong>Billions</strong>.
+											</p>
 										</div>
+
+										<!-- Begin contact info 
+										======================== -->
+										<ul class="contact-info padding-bottom-40 text-gray">
+
+											<h6 class="no-margin-bottom ">you can reach me on:</h6>
+											<li class="anim-fadeinup">
+												<span class="ci-icon"><i class="fas fa-phone"></i></span>
+												<a href="tel:0123456789" class="link">012 345 6789</a>
+											</li>
+											<li class="anim-fadeinup">
+												<span class="ci-icon"><i class="fas fa-envelope"></i></span>
+												<a href="mailto:name@email.com" class="link">name@email.com</a>
+											</li>
+											
+											<li class="anim-fadeinup">
+												<h6 class="no-margin-bottom margin-top-40">Share:</h6>
+												<!-- Begin social buttons -->
+												<div class="social-buttons">
+													<ul >
+														<li ><a href="https://www.facebook.com/#"  target="_blank" rel="noopener"><i class="fab fa-2x fa-facebook"></i></a></li>
+														<li><a href="https://twitter.com/#" target="_blank" rel="noopener"><i class="fab fa-2x fa-twitter"></i></a></li>
+														<li><a href="https://www.googleplus.com/" target="_blank" rel="noopener"><i class="fab fa-2x fa-google-plus"></i></a></li>
+													</ul>
+												</div>
+												<!-- End social buttons -->
+											</li>
+										</ul>
+										<!-- End contact info -->
 
 									</div> <!-- /.col -->
 
-									
-								</div> <!-- /.row -->
-
-							</div> <!-- /.section-inner -->
-						</div>
-						<!-- End section -->
-
-
-						<div class="section padding-bottom-xlg-150">
-							<div class="section-inner wrap">
-
-								<!-- Begin page nav 
-								==================== 
-						
-								-->
-								<div class="page-nav pn-scroll">
-									<a href="#" class="pn-link anim-fadeinup">
-										<div class="pn-title">Next Project</div>
-										<div class="pn-hover-title">Mercedes G Class</div>
-									</a> <!-- /.pn-link -->
-
-									<div class="pn-subtitle anim-fadeinup">Explore More</div>
-
-									<!-- Use if destination page contains page header image -->
-									<div class="pn-image">
-										<img src="assets/img/Thumbnails/download-11.jpg" alt="image">
-									</div>
-								</div>
-								<!-- End page nav -->
+								<!-- </div> <!-- /.row -->
 
 							</div> <!-- /.section-inner -->
 						</div>
@@ -290,9 +247,9 @@
 
 					</div>
 					<!-- End page content -->
+					
 
-
-					<!-- ======================
+						<!-- ======================
 					///// Begin footer /////
 					=========================== -->
 					<footer id="footer">
