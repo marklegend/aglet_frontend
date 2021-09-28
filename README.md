@@ -32,5 +32,12 @@ Linux Terminal
 
 elemantory OS Linux
 
+# Contact
+
+you can email me 
+
+phenyo.legend@gmail.com
+for any questions or feedback
+
 THANK YOU 
 
